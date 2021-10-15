@@ -2,7 +2,7 @@
 
 In this project, I build an autoencoder in order to distinguish between 'normal' and 'abnormal' heartbeats. 
 
-This repo provides the code used in the follwing article: https://medium.com/p/ed45255bd4fc
+This repo provides the code used in the follwing article: https://medium.com/@djt20djt20/ed45255bd4fc
 
 I built this model to explore the application of auto-encoders in anomoly detection for time-series
 
