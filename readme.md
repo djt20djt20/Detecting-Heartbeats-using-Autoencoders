@@ -27,3 +27,5 @@ pandas <br />
 matplotlib <br />
 sklearn <br />
 torch <br />
+
+If you have any questions about this project, feel free to contact me.
