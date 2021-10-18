@@ -13,6 +13,13 @@ This repo provides the code used in the following article: https://medium.com/@d
 ## Purpose
 I built this model because I'm interested in developing algorithms that detect anomolies in time-series data.
 
+## What are auto-encoders?
+Auto-encoders are models that compress an input, using an encoder, and then decompress the input, using a decoder. The point is to get back to the original input.
+
+![image](https://user-images.githubusercontent.com/89222838/137792130-5c02e70a-f165-4748-9e3b-d619086ece11.png)
+
+They work for detecting anomolies in time-series, because they expect a time-series with a certain profile. If you give the model a time series that it has never seen before, it fails to reconstruct it. You can then measure the 'distance' between an input, and an auto-encoded output, and use a threshold to classify the heartbeat.  
+
 ## Files
 ### Heart_beat_final.ipynb
 The notebook where I wrangle the data, build the model, and perform my analysis
